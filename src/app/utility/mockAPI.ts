@@ -273,3 +273,5 @@ export const mockedWeatherData: Weather = {
        "population":39199
     }
  };
+
+ export const mockedReturnedData = {city: 'Rome - IT', '6pm': 26, '12am': 18, '6am': 21, '12pm': 30};
