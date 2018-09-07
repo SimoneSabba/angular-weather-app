@@ -1,5 +1,5 @@
 import * as weatherActions from '../actions/weather.actions';
-import{ mockedWeatherData, mockedReturnedData } from '../../utility/mockAPI';
+import { mockedWeatherData, mockedReturnedData } from '../../utility/mockAPI';
 import { initialState, reducer } from './weather.reducer';
 
 describe ('Weather reducer ', function() {
@@ -9,7 +9,7 @@ describe ('Weather reducer ', function() {
             const action: any = {};
             const state = reducer(initialState, action);
             expect(state).toEqual(initialState);
-        })
+        });
     });
 
     describe ('case LOAD_CITY_WEATHER', function() {
@@ -20,7 +20,7 @@ describe ('Weather reducer ', function() {
             expect(state.isLoading).toBe(true);
             expect(state.weather).toEqual([]);
             expect(state.hasError).toBe(false);
-        })
+        });
 
     });
 
@@ -31,7 +31,7 @@ describe ('Weather reducer ', function() {
             expect(state.isLoading).toBe(false);
             expect(state.weather).toEqual([ mockedReturnedData ]);
             expect(state.hasError).toBe(false);
-        })
+        });
     });
 
     describe ('case LOAD_CITY_WEATHER_FAIL', function() {
@@ -41,7 +41,7 @@ describe ('Weather reducer ', function() {
             expect(state.isLoading).toBe(false);
             expect(state.weather).toEqual([]);
             expect(state.hasError).toBe(true);
-        })
+        });
     });
 
-})
+});

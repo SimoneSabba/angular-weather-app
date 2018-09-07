@@ -23,4 +23,4 @@ const components = [
   declarations: [...components],
   exports: [...components]
 })
-export class SharedModule { };
+export class SharedModule { }

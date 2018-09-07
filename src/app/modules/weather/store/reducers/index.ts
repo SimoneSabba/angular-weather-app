@@ -4,7 +4,7 @@ import { ActionReducerMap } from '@ngrx/store';
 
   export interface CityWeatherState {
     city: string;
-  };
+  }
 
   export const reducers: ActionReducerMap<any>  = {
     city: fromWeather.reducer

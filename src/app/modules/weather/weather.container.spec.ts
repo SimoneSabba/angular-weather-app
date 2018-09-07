@@ -51,6 +51,6 @@ describe('WeatherContainerComponent', () => {
       expect(citySearchSpy).toHaveBeenCalledWith(city);
       expect(dispatchSpy).toHaveBeenCalled();
     });
-  })
+  });
 
 });

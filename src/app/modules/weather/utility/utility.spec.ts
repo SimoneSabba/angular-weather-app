@@ -34,6 +34,6 @@ describe('Utility service ', () => {
         '12pm': 30
     }));
 
-  })
+  });
 
 });

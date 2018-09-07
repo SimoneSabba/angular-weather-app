@@ -22,7 +22,7 @@ describe('ResultsComponent', () => {
     fixture = TestBed.createComponent(ResultsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
-  })
+  });
 
   beforeEach(() => {
     fixture = TestBed.createComponent(ResultsComponent);
