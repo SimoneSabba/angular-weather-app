@@ -1,4 +1,4 @@
-import * as weatherActions from '../actions/weather';
+import * as weatherActions from '../actions/weather.actions';
 import { AppState } from '../../store/state';
 import * as _ from 'lodash';
 import { updateObject, formatCityObject } from '../../utility/utility';

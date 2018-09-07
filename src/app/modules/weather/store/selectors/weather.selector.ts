@@ -1,5 +1,5 @@
 import { createSelector, createFeatureSelector } from '@ngrx/store';
-import { AppState } from '../../store/state';
+import { AppState } from '../state';
 
 export interface CityState {
   city: AppState;

@@ -1,6 +1,6 @@
 import { ActionReducerMap } from '@ngrx/store';
 
-  import * as fromWeather from './weather';
+  import * as fromWeather from './weather.reducer';
 
   export interface CityWeatherState {
     city: string;

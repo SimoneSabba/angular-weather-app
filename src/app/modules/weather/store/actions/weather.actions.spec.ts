@@ -1,4 +1,4 @@
-import * as weatherActions from './weather';
+import * as weatherActions from './weather.actions';
 import{ mockedWeatherData } from '../../utility/mockAPI';
 
 describe ('Weather actions ', function() {

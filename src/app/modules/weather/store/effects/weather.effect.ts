@@ -5,7 +5,7 @@ import { of } from 'rxjs/observable/of';
 import { switchMap, map, catchError } from 'rxjs/operators';
 
 import { WeatherService } from '../../weather.service';
-import * as weatherActions from '../actions/weather';
+import * as weatherActions from '../actions/weather.actions';
 
 @Injectable()
 export default class WeatherEffects {

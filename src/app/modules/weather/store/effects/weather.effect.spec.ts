@@ -12,8 +12,8 @@ import { of } from 'rxjs/observable/of';
 
 import { WeatherService } from '../../weather.service';
 
-import WeatherEffects from './weather';
-import * as weatherActions from '../actions/weather';
+import WeatherEffects from './weather.effect';
+import * as weatherActions from '../actions/weather.actions';
 import { mockedWeatherData, mockedReturnedData } from '../../utility/mockAPI';
 
 export class TestActions extends Actions {

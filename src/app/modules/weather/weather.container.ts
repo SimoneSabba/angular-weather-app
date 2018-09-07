@@ -4,7 +4,7 @@ import { Observable } from 'rxjs/observable';
 
 import { Summary } from './model/weather';
 import { AppState } from './store/state';
-import * as weatherActions from './store/actions/weather';
+import * as weatherActions from './store/actions/weather.actions';
 import * as selectors from './store/selectors/';
 
 @Component({

@@ -1,5 +1,5 @@
-import WeatherEffects from './weather';
+import WeatherEffects from './weather.effect';
 
 export const effects: any[] = [WeatherEffects];
 
-export * from './weather';
+export * from './weather.effect';
