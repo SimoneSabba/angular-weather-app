@@ -1,7 +1,7 @@
 import { ModuleWithProviders } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { WeatherContainerComponent } from './weather/weather.container';
+import { WeatherContainerComponent } from './modules/weather/weather.container';
 
 const appRoutes: Routes = [
   {

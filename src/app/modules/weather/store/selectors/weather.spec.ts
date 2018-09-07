@@ -4,7 +4,7 @@ import { combineReducers, Store, StoreModule } from '@ngrx/store';
 import { reducers, CityWeatherState } from '../reducers';
 import { getIsLoading, getHasError, getWeather } from '../selectors/weather';
 import { LoadCityWeather, LoadCityWeatherSuccess, LoadCityWeatherFail } from '../actions/weather';
-import{ mockedWeatherData, mockedReturnedData } from '../../../utility/mockAPI';
+import{ mockedWeatherData, mockedReturnedData } from '../../utility/mockAPI';
 
 describe('Weather Selectors', () => {
   let store: Store<CityWeatherState>;

@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs/observable';
 
-import { Summary } from '../model/weather';
+import { Summary } from './model/weather';
 import { AppState } from './store/state';
 import * as weatherActions from './store/actions/weather';
 import * as selectors from './store/selectors/';

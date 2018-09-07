@@ -1,4 +1,4 @@
-import { Summary } from '../../model/weather';
+import { Summary } from '../model/weather';
 
 export interface AppState {
     isLoading: boolean;

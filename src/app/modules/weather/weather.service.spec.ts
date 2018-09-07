@@ -1,7 +1,7 @@
 import { defer } from 'rxjs/observable/defer';
 
 import { WeatherService } from './weather.service';
-import{ mockedWeatherData } from '../utility/mockAPI';
+import{ mockedWeatherData } from './utility/mockAPI';
 
 function asyncData<T>(data: T) {
   return defer(() => Promise.resolve(data));

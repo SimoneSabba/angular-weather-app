@@ -1,5 +1,5 @@
 import { Action } from '@ngrx/store';
-import { Weather } from '../../../model/weather';
+import { Weather } from '../../model/weather';
 
 export const LOAD_CITY_WEATHER = 'LOAD_CITY_WEATHER';
 export const LOAD_CITY_WEATHER_SUCCESS = 'LOAD_CITY_WEATHER_SUCCESS';

@@ -1,16 +1,11 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
 import { ResultsComponent } from './results.component';
-import { Summary } from '../../../model/weather';
-import Spy = jasmine.Spy;
-
 
 describe('ResultsComponent', () => {
   let component: ResultsComponent;
   let fixture: ComponentFixture<ResultsComponent>;
-  let expectedCities: Summary[] = [];
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({

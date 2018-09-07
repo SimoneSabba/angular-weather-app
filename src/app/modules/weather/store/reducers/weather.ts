@@ -1,7 +1,7 @@
 import * as weatherActions from '../actions/weather';
 import { AppState } from '../../store/state';
 import * as _ from 'lodash';
-import { updateObject, formatCityObject } from '../../../utility/utility';
+import { updateObject, formatCityObject } from '../../utility/utility';
 
 export const initialState: AppState = {
     isLoading: false,

@@ -1,5 +1,5 @@
 import * as weatherActions from '../actions/weather';
-import{ mockedWeatherData, mockedReturnedData } from '../../../utility/mockAPI';
+import{ mockedWeatherData, mockedReturnedData } from '../../utility/mockAPI';
 import { initialState, reducer } from './weather';
 
 describe ('Weather reducer ', function() {

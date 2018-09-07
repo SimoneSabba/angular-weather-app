@@ -4,7 +4,6 @@ import { WeatherContainerComponent } from './weather.container';
 
 import { combineReducers, Store, StoreModule } from '@ngrx/store';
 import { reducers } from './store/reducers';
-import { Summary } from '../model/weather';
 
 describe('WeatherContainerComponent', () => {
   let component: WeatherContainerComponent;

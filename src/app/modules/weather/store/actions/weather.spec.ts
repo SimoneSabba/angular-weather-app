@@ -1,5 +1,5 @@
 import * as weatherActions from './weather';
-import{ mockedWeatherData } from '../../../utility/mockAPI';
+import{ mockedWeatherData } from '../../utility/mockAPI';
 
 describe ('Weather actions ', function() {
     const city = mockedWeatherData.city.name;

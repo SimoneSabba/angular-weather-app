@@ -1,5 +1,5 @@
 import { Component, OnChanges, Input, SimpleChanges, ChangeDetectionStrategy } from '@angular/core';
-import { Summary } from '../../../model/weather';
+import { Summary } from '../../../modules/weather/model/weather';
 
 @Component({
   selector: 'app-results',
